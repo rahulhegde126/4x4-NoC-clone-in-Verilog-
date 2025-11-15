@@ -2,7 +2,7 @@
 
 This repository contains a very simple 4×4 Network-on-Chip (NoC) style router written in SystemVerilog (`design.sv`) together with a UVM-based verification environment (`testbench.sv`).
 
-The main purpose of this project is **not** the complexity of the DUT, but to serve as a clean, minimal example of how to build a **good UVM testbench** around a small design.
+The main purpose of this project is **not** to design NoC, but to serve as a clean, minimal and a **good UVM testbench** for the NoC.
 
 ## Overview
 
@@ -28,8 +28,8 @@ The main purpose of this project is **not** the complexity of the DUT, but to se
 ## Goal of the Project
 
 - Demonstrate how to:
-  - Connect a simple DUT to a UVM testbench using a virtual interface.
-  - Build a small but complete UVM environment (driver, monitor, agent, env, scoreboard, coverage).
+  - Writing UVM testbench using a simple clone of 4x4 NoC.
+  - Build a complete UVM environment (driver, monitor, agent, env, scoreboard, coverage, assertions).
   - Add assertions and coverage to strengthen verification.
 - Serve as a **learning/reference repository** for students or beginners who want to understand UVM using a compact example.
 
