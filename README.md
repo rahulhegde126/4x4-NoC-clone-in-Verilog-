@@ -28,7 +28,7 @@ The main purpose of this project is **not** to design NoC, but to serve as a cle
 ## Goal of the Project
 
 - Demonstrate how to:
-  - Writing UVM testbench using a simple clone of 4x4 NoC.
+  - Write UVM testbench using a simple clone of 4x4 NoC.
   - Build a complete UVM environment (driver, monitor, agent, env, scoreboard, coverage, assertions).
   - Add assertions and coverage to strengthen verification.
 - Serve as a **learning/reference repository** for students or beginners who want to understand UVM using a compact example.
